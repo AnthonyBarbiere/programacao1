@@ -8,3 +8,37 @@ int main()
  printf("%30s \n", "gabriel");
  printf("nome: %s idade:%d \n", "Gabriel", 22);
 
+/*matrícula: 2021100315
+início:
+*/
+#include <stdio.h>
+int main()
+{
+
+float monE, tueE, thuE, wedE, friE, pagamento, somatorio, monS, tueS, thuS, wedS, friS
+
+printf("Digite os valores de entrada monE")
+scanf("%f",&monE);
+printf("Digite os valores de saída monS")
+scanf("%f",&monS);
+
+printf("Digite os valores de entrada tueE")
+scanf("%f",&tueE);
+printf("Digite os valores de saída tueS")
+scanf("%f",&tueS);
+
+printf("Digite os valores de entrada thuE")
+scanf("%f",&thuE);
+printf("Digite os valores de saída thuS")
+scanf("%f",&thuS);
+
+printf("Digite os valores de entrada wedE")
+scanf("%f",&wedE);
+printf("Digite os valores de saída wedS")
+scanf("%f",&wedS);
+
+printf("Digite os valores de entrada friE")
+scanf("%f",&friE);
+printf("Digite os valores de saída friS")
+scanf("%f",&friS);
+}
