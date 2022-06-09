@@ -70,11 +70,36 @@ else if(imc < 30)
    printf("sobrepeso\n");
    
 else printf("obeso\n");      
-  
-
-
-
-
+ 
 
 
 }
+
+ 
+
+ 
+ 
+ #include <stdio.h>
+int main() {
+char vogais;
+scanf("%c", &vogais);
+
+switch(vogais)
+{
+case 'a':
+case 'e':
+case 'i':
+case 'o':
+case 'u':
+    printf("É vogal\n");
+  break;
+default:
+    printf("É consoante\n");
+}
+ }
+ 
+ 
+ 
+ 
+ 
+ 
