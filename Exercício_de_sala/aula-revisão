@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(){
+
+int a, b, c, d;
+printf("insira o valor de a:\n");
+scanf("%d", &a);
+
+printf("insira o valor de b:\n");
+scanf("%d", &b);
+
+printf("insira o valor de c:\n");
+scanf("%d", &c);
+
+printf("insira o valor de d:\n");
+scanf("%d", &d);
+
+if(a == b + c + d && b + c == d && b==c)
+printf("Está equilibrado");
+
+else
+printf("Não está equilibrado");
+}
