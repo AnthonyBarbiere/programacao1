@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+float soma(float *VET, int tam){
+     int i;
+     float R=0;
+     for(i=0; i<tam; i++)
+        R+=VET[i];
+        return R;
+        
+}
+
+int main(){
+
+float VET[10];
+int i;
+for(i=0; i<10; i++);
+    VET[i]=i*i+3;
+printf("%f\n", soma(VET,10));
+
+}
