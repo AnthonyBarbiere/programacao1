@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    
+int k;
+
+printf("digite um número:\n");
+scanf("%d",&k); 
+
+if(k>20)
+    printf("O número é maior que 20 e multiplicado por 2 é %d", k*2);
+
+else
+    printf("O número é menor ou igual a 20 e é %d", k*4);
+
+}
+    
